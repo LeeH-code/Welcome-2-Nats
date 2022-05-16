@@ -1,0 +1,54 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+}
+.Intro h1 {
+  color: black;
+  font-family: Georgia;
+  font-weight: bold;
+  position:absolute;
+  font-size: 100px;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%;
+  padding: 5px;
+  text-align: center;
+  
+   }
+.bg-image {
+    background-image: url("./Time.jpg");
+    filter: blur(3px);
+    height: 300px;
+    z-index: 10;
+    font-weight: bold;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+    
+    #border_banner {
+      border: solid 2px black;
+      a
+    }  
+   }
+ #Time {
+   
+  display: inline-block;
+  width: 100%;
+ }
+ 
+p, 
+li {
+  font-size: 18px;
+  position: static;
+  
+}
+ 
+ 
+a {
+  text-decoration-line: underline;
+}
